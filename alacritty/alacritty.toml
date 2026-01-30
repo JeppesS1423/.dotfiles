@@ -1,0 +1,21 @@
+[window]
+opacity = 0.6
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "ProFontWindows"
+style = "Regular"
+
+[font.bold]
+family = "ProFontWindows"
+style = "Bold"
+
+[font.italic]
+family = "ProFontWindows"
+style = "Italic"
+
+[colors]
+[colors.primary]
+foreground = "#eee8d5"

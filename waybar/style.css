@@ -1,0 +1,42 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "ProFontWindows", "Font Awesome 6 Free", monospace;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(30, 30, 46, 0.2);
+  color: #eee8d5;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  background: transparent;
+  color: #020024;
+  margin: 2px 4px;
+  border-radius: 6px;
+}
+
+#workspaces button.active {
+  background: #020024;
+  color: #eee8d5;
+}
+
+#workspaces button:hover {
+  background: #020024;
+}
+
+#clock,
+#pulseaudio,
+#network {
+  padding: 0 12px;
+  background: #020024;
+  margin: 2px 4px;
+  border-radius: 6px;
+}
+
+#network.disconnected {
+  color: #f38ba8;
+}
