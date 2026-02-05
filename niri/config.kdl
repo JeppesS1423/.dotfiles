@@ -72,7 +72,7 @@ input {
 }
 
 cursor {
-	xcursor-theme "Oxygen_Zion"
+	xcursor-theme "DeppinDark-cursors"
         xcursor-size 24
 }
 
@@ -344,6 +344,11 @@ window-rule {
     match app-id="EVE" title="EVE"
     open-floating true
     default-column-width { proportion 0.5; }
+}
+
+window-rule {
+    match app-id="Godot"
+    open-maximized true
 }
 
 // Example: block out two password managers from screen capture.
