@@ -17,5 +17,6 @@ ln -sfn "$DOTFILES_DIR/alacritty" ~/.config/alacritty
 ln -sfn "$DOTFILES_DIR/fuzzel" ~/.config/fuzzel
 ln -sfn "$DOTFILES_DIR/niri" ~/.config/niri
 ln -sfn "$DOTFILES_DIR/waybar" ~/.config/waybar
+ln -sfn "$DOTFILES_DIR/nvim" ~/.config/nvim
 
 echo "Symbolic links created"
